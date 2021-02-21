@@ -9,4 +9,10 @@
     <PackageReference Include="FluentNHibernate" Version="3.1.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="data.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
